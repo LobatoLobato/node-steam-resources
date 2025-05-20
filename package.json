@@ -3,7 +3,7 @@
   "version": "1.2.2",
   "description": "Steam resources for Node.js",
   "scripts": {
-    "prepare": "git checkout https://github.com/SteamDatabase/Protobufs protobufs && git checkout https://github.com/SteamRE/SteamKit/Resources/ProtobufGen protobuf_gen && git checkout https://github.com/SteamRE/SteamKit/Resources/SteamLanguage steam_language"
+    "prepare": "git clone https://github.com/SteamDatabase/Protobufs protobufs && git clone https://github.com/SteamRE/SteamKit/Resources/ProtobufGen protobuf_gen && git clone https://github.com/SteamRE/SteamKit/Resources/SteamLanguage steam_language"
   },
   "dependencies": {
     "bytebuffer": "^5.0",
